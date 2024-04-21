@@ -1,0 +1,7 @@
+// main.rc
+
+#include "resource.h"
+
+
+RSID_ICON_MAIN                        ICON "icons/ggxxacpr_replay_organizer_main.ico"
+RSID_ICON_MAIN_SMALL                  ICON "icons/ggxxacpr_replay_organizer_main_small.ico"

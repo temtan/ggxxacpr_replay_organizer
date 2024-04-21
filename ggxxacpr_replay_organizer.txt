@@ -1,0 +1,40 @@
+
+!!!! GGXXACPPR Replay Organizer
+
+!!! 概要
+
+GGXXACPPR Replay Organizer は Windows Steam 版 GUILTY GEAR XX ΛCORE PLUS R の
+リプレイファイルを整理したり集計したりできます。
+
+以下の事が出来ます。
+
+- 日付毎（指定可能）にフォルダに移動する。
+- 指定した対戦相手毎にフォルダを作りそのフォルダにコピーする。
+- 集計して勝率等の集計結果をまとめる。
+
+
+!!! 使い方
+
+以下を参照してください。
+
+https://childs.squares.net/program/ggxxacpr_replay_organizer
+
+
+!!! 開発環境
+
+コンパイラ : Visual Studio Build Tools 2022
+IDE        : TTVC Developer
+エディタ   : xyzzy
+開発言語   : C++
+
+
+!!! 更新履歴
+
+1.0.0 : 初版
+
+
+!!! 作った人
+
+NAME : TEM
+WEB  : CHILD'S SQUARE - http://childs.squares.net/
+     : GitHub - https://github.com/temtan/ggxxacpr_replay_organizer
