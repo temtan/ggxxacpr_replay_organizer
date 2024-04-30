@@ -7,7 +7,7 @@
 
 
 namespace GGXXACPRReplayOrganizer {
-  const char* const VERSION = "1.0.0";
+  const char* const VERSION = "1.0.1";
   const char* const APPLICATION_NAME = "GGXXACPR Replay Organizer";
 
   namespace Const {

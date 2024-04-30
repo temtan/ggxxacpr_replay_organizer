@@ -277,6 +277,9 @@ ReplayFile::Parse( const std::wstring& path )
   };
 
   while ( NOT( end_of_first_player_name() ) ) {
+    if ( *c == L'\0' ) {
+      return std::nullopt;
+    }
     replay_file.first_player_name_.append( 1, *c );
     c++;
   }
@@ -286,6 +289,9 @@ ReplayFile::Parse( const std::wstring& path )
   c += 8;
 
   while ( NOT( end_of_second_player_name() ) ) {
+    if ( *c == L'\0' ) {
+      return std::nullopt;
+    }
     replay_file.second_player_name_.append( 1, *c );
     c++;
   }
